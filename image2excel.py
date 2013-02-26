@@ -4,7 +4,7 @@ from jinja2 import Template
 with file('xlsxart.template') as f:
      source = f.read()
 XimgTemplate = Template(source)
-im = Image.open("bens_group_small.jpg")
+im = Image.open("sample.png")
 mx,my = im.size
 pix = im.load()
 def RGBToHTMLColor(rgb_tuple):
